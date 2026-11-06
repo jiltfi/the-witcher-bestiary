@@ -1,0 +1,43 @@
+{
+  "id": "the-witcher-bestiary",
+  "title": "The witcher bestiary",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "jiltfi",
+      "discord": "jiltfi",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "witcher_bestiary",
+      "label": "witcher_bestiary",
+      "path": "packs/witcher_bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "witcher-ttrpg-death-march",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "wtrpg-complete-compendium",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
